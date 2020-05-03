@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on My New Hugo Site</title>
-    <link>https:ll2313673906.github.io/post/</link>
+    <link>https://ll2313673906.github.io/post/</link>
     <description>Recent content in Posts on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 03 May 2020 16:22:16 +0800</lastBuildDate>
     
-	<atom:link href="https:ll2313673906.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://ll2313673906.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>hugo博客搭建</title>
-      <link>https:ll2313673906.github.io/post/blog/</link>
+      <link>https://ll2313673906.github.io/post/blog/</link>
       <pubDate>Sun, 03 May 2020 16:22:16 +0800</pubDate>
       
-      <guid>https:ll2313673906.github.io/post/blog/</guid>
+      <guid>https://ll2313673906.github.io/post/blog/</guid>
       <description>什么是Hugo
 hugo是一个通用网站框架，从技术上来说，Hugo是一个静态站点生成器。也就是说，不像WordPress，Ghost和Drupal之类的系统，会奢侈地为每一次访问都生成一次新页面，在你创造出内容时Hugo就已经把页面建好了。由于站点被访问的次数远远大于被编辑的次数，Hugo优化了网站访问的同时，提供了优异的写作体验
 使用Hugo建站极其快速且非常安全。Hugo站点可以部署在任何地方，包括Heroku、GoDaddy、DreamHost、GitHub Pages、Google Cloud Storage、Amazon S3和CloudFront，也能在CDN群上工作的很好。Hugo站点的运行不依赖昂贵的运行环境，如Ruby、Python或者PHP，也不依赖任何数据库。
