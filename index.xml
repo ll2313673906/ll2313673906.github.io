@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>My New Hugo Site</title>
+    <link>https:ll2313673906.github.io/</link>
+    <description>Recent content on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 03 May 2020 16:22:16 +0800</lastBuildDate>
+    
+	<atom:link href="https:ll2313673906.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>hugo博客搭建</title>
+      <link>https:ll2313673906.github.io/post/blog/</link>
+      <pubDate>Sun, 03 May 2020 16:22:16 +0800</pubDate>
+      
+      <guid>https:ll2313673906.github.io/post/blog/</guid>
+      <description>什么是Hugo
+hugo是一个通用网站框架，从技术上来说，Hugo是一个静态站点生成器。也就是说，不像WordPress，Ghost和Drupal之类的系统，会奢侈地为每一次访问都生成一次新页面，在你创造出内容时Hugo就已经把页面建好了。由于站点被访问的次数远远大于被编辑的次数，Hugo优化了网站访问的同时，提供了优异的写作体验
+使用Hugo建站极其快速且非常安全。Hugo站点可以部署在任何地方，包括Heroku、GoDaddy、DreamHost、GitHub Pages、Google Cloud Storage、Amazon S3和CloudFront，也能在CDN群上工作的很好。Hugo站点的运行不依赖昂贵的运行环境，如Ruby、Python或者PHP，也不依赖任何数据库。
+我们想让Hugo作为网站的创建工具。近乎秒建的速度，能够随时重新生成被修改的地方，Hugo为此提供了一个非常快的反馈环路。此反馈环路当你设计网站时非常简便，而当创建内容时也非常实用。
+注意的点，
+  hugo中的文档图片显示
+   贴链接地址 在文件目录下的static文件下新建一个img文件用来存放图片，在文档中需要显示的地方	添加图片的相对路径     github上创建仓库的时候，以github.io结尾。前面的是自己github名   下载的主题，一定要在名为themes的文件下面才有效 上传到github的是public文件夹，并不是整个博客的文件夹  如何搭建hugo博客
+1.	下载windows压缩文件
+下载链接
+2.	配置环境变量
+新建一个文件，里面新建子目录bin，将解压好的hugo文件放于bin中，将bin目录配置到环境变量。
+3. 检验是否安装成功
+打开cmd 输入
+hugo version 如下则显示安装成功
+4.	创建博客
+进入文件根目录 输入命令
+hugo new site myblog myblog`：自己的文件名
+5.	设置主题
+ 下载主题的地址 进入根目录下载主题 ，下载之后生成themes文件夹 m10c: 是主题的名字  mkdir themes // 创建一个themes的文件 cd themes //进入themes文件中 git clone https://github.com/vaga/hugo-theme-m10c.git 以上三句可以用一句来代替</description>
+    </item>
+    
+  </channel>
+</rss>
